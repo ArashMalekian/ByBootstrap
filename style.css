@@ -1,0 +1,301 @@
+#body{
+background-color:black;}
+img#logo{
+    width: 100%;
+    display: inline;
+    ;
+}
+img#logo:hover{
+    border: 3px solid red;
+}
+img#logo:active{
+border-top: 2px solid black;
+border-bottom: 2px solid black;
+border-left: 3px solid red;
+border-right: 3px solid red;
+}
+#navbar{
+    background-color: black;
+}
+.nav-icon{
+    color: white;
+    text-decoration: none;
+  
+}
+.nav-icon:hover{
+    color:red ;
+    transition-property: size ;
+    size: 50% !important;
+}
+.nav-icon:active{    
+    transition-property: size;
+
+
+}
+.nav-link{
+    color:white;
+}
+.nav-link:hover{
+    
+border-top: 3px solid red;
+border-bottom: 3px solid red;
+color: white;
+
+}
+.nav-link:active{
+    border-top: 3px solid white;
+border-bottom: 3px solid white;
+border-radius: 15%;
+color: red !important;
+}
+#collapse:hover{
+color: red !important;
+}
+.navbar-text{
+    color: white;
+}
+#t{
+    color: red;
+
+}
+.navbar-text:hover{
+    color: red;
+    cursor: none;
+    
+}
+
+/*header*/
+
+
+.background{
+    background: url(pics/d9c4d53d-7cfc-418e-8ff6-28c7ef6291d4.jpg);
+min-height: calc(100vh - 76px);
+background-position: center;
+background-size: 30%;
+background-repeat: no-repeat;
+animation-name: zoom;
+animation-duration: 9s;
+animation-delay: none;
+animation-iteration-count: infinite;
+animation-timing-function:unset;
+}
+@keyframes zoom{
+
+    0%{
+        transform: rotate(-40deg);
+    }
+   
+    25%{ 
+        transform: rotate(360deg) ;
+
+    }
+  100%{
+      transform: rotate(-40deg) ;
+  }
+    
+}
+
+.director{
+ background-attachment: fixed;
+    background-color: black !important;
+}
+#arash{
+    text-decoration: none;
+    color: white;
+    font-weight: lighter;
+    
+}
+
+
+#arash:hover{
+    color: red;
+    ;
+    
+}
+#arash:active{
+    color: white;
+}
+/*section*/
+.nastaliq{
+    font-family:IranNastaliq,'IranNastaliq',tahoma;
+    font-size: 30px;
+    cursor: none;
+}
+.link-icon{
+    color: white;
+    ;
+}
+.link-icon:hover{
+    color: red;
+}
+.link-icon:active{
+color: white;}
+.ucase{
+    color: white;
+    width: bold;
+}
+.undertext{
+    color: red;
+    opacity: 50%;
+}
+.underline{
+    width: 4rem;
+    height: 0.2rem;
+    background-color: red;
+    opacity: 50%;
+margin: 1rem  auto ;
+}
+/*preloader*/
+.preloader{
+    animation-name: zoomm;
+animation-duration: 9s;
+animation-delay: none;
+animation-iteration-count: infinite;
+animation-timing-function:unset;
+background-size: 100% !important;
+position: fixed;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+z-index: 99;
+
+}
+@keyframes zoomm{
+
+    0%{
+        transform: rotate(-40deg);
+    }
+   
+    25%{ 
+        transform: rotate(360deg) ;
+
+    }
+  100%{
+      transform: rotate(-40deg) ;
+  }
+
+}
+.preloaderimg{
+    background-position: cover;
+    width: 1500px;
+    height: 1500px;
+
+}
+.hidepreloader{
+    display: none !important;
+
+}
+/*buttons*/
+.filterbutton{
+    color: red;
+    background-color: black;
+    border: 1px solid red;
+    opacity: 75%;
+}
+.filterbutton:hover{
+    color: black;
+    background-color: red;
+}
+#filterbuttonactive{
+    color: black;
+    background-color: red;
+}
+/*cardsections*/
+.ccard{
+    background-color:black;
+}
+.tcard{
+    color: white;
+}
+.xcard{
+    color: white;
+}
+
+.ione{
+    color: white;
+}
+.ione:hover{
+    color: red;
+}
+.morequestion{
+    background: url('pics/40107-download-wallpaper-1366x768-art-surface-grunge-paint-tablet-laptop-hd-background.jpg')  center/cover fixed no-repeat  ;
+    opacity: 80%;
+}
+.firstpart{
+    background-color: black;
+    opacity: 75%;
+}
+.afirstpart{
+    font-size: xx-large;
+    color: red;
+}
+.afirstpart:hover{
+    color: #000;
+}
+.hfirstpartt{
+    text-align: end !important;
+}
+/*books*/
+
+.bookinfo{
+   border: 1px solid     rgb(192, 60, 60);
+   ;
+   cursor: pointer;
+   transition: all 1s ease-in-out ;
+
+}
+.bookicon{
+    color: rgb(192, 60, 60);
+margin-left: 5px;
+}
+.bookicon:hover{
+    color: rgb(0, 0, 0);
+}
+.bookname{
+    color: rgb(192, 60, 60);
+    padding: 2px;
+}
+
+.bookinfo:hover{
+    background-color: white;
+    cursor: pointer;
+    transform: scale(1.05);
+
+}
+.sectionimg{
+    background-color: black;
+    position: relative;
+    overflow: hidden;
+}
+.bookimg{
+    transition: all 1s ease-in-out ;
+}
+.bookimg:hover {
+    transform: scale(1.3);
+    opacity: 55%;
+}
+.sectionicon{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 3rem;
+    transform: translate(-50%,-50%);
+    color: rgb(0, 0, 0);
+    opacity: 0;
+    transition: all 1S ease-in-out;
+}
+.sectionicon:hover{
+    color: white;
+}
+.sectionimg:hover .sectionicon{
+    opacity: 1;
+}
+
+.footer{
+    color: wheat;
+    background-color: rgb(20, 20, 20 , .7);
+    text-align: center;
+    padding: 10px;
+    box-shadow:  0px , 0px , 10px ,rgb(20, 20, 20 ,) ;
+}
